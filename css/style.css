@@ -1,10 +1,13 @@
+/*  SETTING GLOBALE DELLA PAGINA  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-weight: bold;
 }
+/*  /SETTING GLOBALE DELLA PAGINA  */
 
+/*  STYLING HEADER  */
 header {
     background-image: url(../img/img/pattern.png);
     background-size: 30%;
@@ -17,18 +20,22 @@ header {
     padding-top: 30px;
     padding-left: 10px;
 }
+/*  /STYLING HEADER  */
 
+/*  STYLING CORPO ARTICOLO  */
 main {
     padding: 10px 5px;
 }
 
+
+/*  STYLING TITOLO E DETTAGLI ARTICOLO  */
 section h1 {
     font-size: 35px;
     font-weight: bolder;
     margin-top: 10px;
 }
 
-.author, .article-date {
+.author, .article-date, footer span {
     color: rgb(150, 150, 150);
 }
 
@@ -40,11 +47,15 @@ section h1 {
 .author span {
     color: rgb(10, 210, 245);
 }
+/*  /STYLING TITOLO E DETTAGLI ARTICOLO  */
 
+/*  STYLING DIDASCALIE IMMAGINI  */
 .first-caption, .second-caption {
     font-size: 11px;
 }
+/*  /STYLING DIDASCALIE IMMAGINI  */
 
+/*  STYLING ARTICOLO E LISTA  */
 article {
     margin-top: 20px;
 }
@@ -56,7 +67,9 @@ ul {
 .main-paragraph span {
     background-color: yellow;
 }
+/*  /STYLING ARTICOLO E LISTA  */
 
+/*  STYLING TABELLA  */
 table, article {
     margin-bottom: 20px;
     border-collapse: collapse;
@@ -73,4 +86,26 @@ thead {
 .first-row, .third-row {
     background-color: lightblue;
 }
+/*  /STYLING TABELLA  */
+/*  /STYLING CORPO ARTICOLO  */
+
+/*  STYLING FOOTER  */
+h3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.monitor {
+    background-image: url(../img/img/monitor.jpg);
+}
+
+.graph {
+    background-image: url(../img/img/graph.jpg);
+}
+/*  /STYLING FOOTER  */
 
