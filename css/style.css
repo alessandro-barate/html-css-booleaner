@@ -2,10 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 header {
     background-image: url(../img/img/pattern.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: lightskyblue;
+}
+
+.header-logo img {
+    width: 20%;
 }
 
 main {
@@ -18,9 +26,26 @@ section h1 {
 }
 
 .author, .article-date {
-    color: rgb(85, 81, 81);
+    color: rgb(150, 150, 150);
+}
+
+.article-date {
+    font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .author span {
-    color: coral;
+    color: rgb(10, 210, 245);
+}
+
+.first-caption, .second-caption {
+    font-size: 10px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+.main-paragraph span {
+    background-color: yellow;
 }
