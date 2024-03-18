@@ -57,6 +57,11 @@ ul {
     background-color: yellow;
 }
 
+table, article {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
 thead {
     background-color: rgb(54, 204, 241);
 }
@@ -64,3 +69,8 @@ thead {
 .first-th, .second-th {
     width: 200px
 }
+
+.first-row, .third-row {
+    background-color: lightblue;
+}
+
