@@ -7,3 +7,20 @@
 header {
     background-image: url(../img/img/pattern.png);
 }
+
+.main {
+    padding: 10px 5px;
+}
+
+section h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.author, .article-date {
+    color: rgb(85, 81, 81);
+}
+
+.author span {
+    color: coral;
+}
