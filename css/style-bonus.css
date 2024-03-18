@@ -15,6 +15,11 @@ header {
     background-color: lightskyblue;
 }
 
+.header-logo {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .header-logo img {
     width: 20%;
     padding-top: 30px;
@@ -25,7 +30,8 @@ header {
 /*  STYLING CORPO ARTICOLO  */
 main {
     padding: 10px 5px;
-    width: 80%;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 
