@@ -57,6 +57,7 @@ section h1 {
 /*  STYLING ARTICOLO E LISTA  */
 article {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -69,23 +70,27 @@ ul {
 /*  /STYLING ARTICOLO E LISTA  */
 
 /*  STYLING TABELLA  */
-table, article {
-    margin-bottom: 20px;
+table {
     border-collapse: collapse;
 }
 
 thead {
     background-color: rgb(54, 204, 241);
+    text-align: left;
 }
 
-.first-th, .second-th {
-    width: 200px
+.text {
+    width: 50%;
 }
 
 .first-row, .third-row {
     background-color: lightblue;
 }
 /*  /STYLING TABELLA  */
+
+.final-paragraph {
+    margin-top: 20px;
+}
 /*  /STYLING CORPO ARTICOLO  */
 
 /*  STYLING FOOTER  */
