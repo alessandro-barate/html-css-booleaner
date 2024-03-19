@@ -63,7 +63,7 @@ section h1 {
 /*  /STYLING DIDASCALIE IMMAGINI  */
 
 /*  STYLING ARTICOLO E LISTA  */
-article {
+article, footer {
     margin-top: 20px;
 }
 
@@ -77,9 +77,10 @@ ul {
 /*  /STYLING ARTICOLO E LISTA  */
 
 /*  STYLING TABELLA  */
-table, article {
+table {
     margin-bottom: 20px;
     border-collapse: collapse;
+    text-align: left;
 }
 
 thead {
@@ -97,6 +98,7 @@ thead {
 /*  /STYLING CORPO ARTICOLO  */
 
 /*  STYLING FOOTER  */
+
 h3 {
     height: 200px;
     background-size: contain;
