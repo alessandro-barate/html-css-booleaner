@@ -9,7 +9,7 @@
 
 /*  STYLING HEADER  */
 header {
-    background-image: url(../img/img/pattern.png);
+    background-image: url(../../bonus/img/img/pattern.png);
     background-size: 30%;
     background-repeat: repeat;
     background-color: lightskyblue;
@@ -108,11 +108,11 @@ h3 {
 }
 
 .monitor {
-    background-image: url(../img/img/monitor.jpg);
+    background-image: url(../../bonus/img/img/monitor.jpg);
 }
 
 .graph {
-    background-image: url(../img/img/graph.jpg);
+    background-image: url(../../bonus/img/img/graph.jpg);
 }
 /*  /STYLING FOOTER  */
 
